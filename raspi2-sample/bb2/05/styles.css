@@ -1,0 +1,14 @@
+#touchArea{
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+#slider1 {
+  display: inline-block;
+}
+
+.ui-slider .ui-slider-handle {
+    width: 30px;
+    height: 30px;
+}
+

@@ -1,0 +1,8 @@
+#slider1 {
+  display: inline-block;
+}
+
+.ui-slider .ui-slider-handle {
+    width: 30px;
+    height: 30px;
+}

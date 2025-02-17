@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>六脚ロボットコントローラー (ソフトウェアPWM)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<!-- WebIOPi -->
+<script src="js/require.js"></script>
+<script>
+require(["/webiopi.js", "javascript.js"], function(){
+    webiopi().ready( initialize_webiopi );
+});
+</script>
+</head>
+
+<body id="body">
+
+<div id="touchArea" align="center">
+    <img src="img/CrawlerController.png" id="touchImage" oncontextmenu="return false;">
+</div>
+
+</body>
+</html>
